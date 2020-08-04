@@ -1,0 +1,7 @@
+USE coches;
+CREATE TABLE marcas (
+id INT AUTO_INCREMENT,
+nombre VARCHAR(25),
+PRIMARY KEY (id)
+);
+ENGINE = INNODB;
